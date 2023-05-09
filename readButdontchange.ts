@@ -4,7 +4,7 @@
 
 interface Order {
     readonly id: number,
-    date: string,
+    date: Date,
     totalAmount: number
 
 }
